@@ -11,3 +11,15 @@ header{
     flex-direction: row;
     justify-content: space-between;
 }
+
+.container-header{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    justify-content: space-between;
+}
+.logo-box{
+    width: 50px;
+    height: 30px;
+    background-color: aqua;
+}
