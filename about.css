@@ -7,6 +7,25 @@
 header {
     width: 100vw;
     height: 20vh; 
-    background-color: blue;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
 }
 
+.logo {
+    height: 80%;
+    width: 20%; 
+    background-color: darkorange;
+}
+
+nav{
+    background-color: lightyellow; 
+    width: 35%; 
+    height: 80%; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+
+}
