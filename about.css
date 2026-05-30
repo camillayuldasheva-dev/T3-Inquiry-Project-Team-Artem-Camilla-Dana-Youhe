@@ -29,3 +29,9 @@ nav{
     align-items: center; 
 
 }
+
+.main {
+    background-color: rgb(225, 238, 255);
+    width: 100vw; 
+    height: 80vh; 
+}
