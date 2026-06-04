@@ -24,7 +24,16 @@ header {
 
 .search-bar {
     width: 15vw;
+
+.nav {
+    display: flex; 
+    align-items: center;
 }
+
+
+
+}
+
 
 .hero {
     height:  
@@ -84,7 +93,7 @@ header {
     width: 50%; 
     background-color: rgb(126, 126, 231);
     display: flex; 
-    justify-content: center;
+    align-items: center;
     justify-content: space-around;
     
 }
