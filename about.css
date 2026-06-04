@@ -22,7 +22,16 @@ header {
 
 .logo-section {
     width: 50vw; 
+
+
 }
+
+.logo-section img {
+    width: 50px; 
+    flex-direction: row;
+}
+
+
 
 .search-bar {
     width: 15vw;
@@ -92,5 +101,12 @@ header {
     background-color: rgb(126, 126, 231);
     display: flex; 
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
+}
+
+.footer {
+    height: 100px; 
+    background-color: rgb(173, 184, 249);
+    display: flex;
+    flex-direction: column;
 }
