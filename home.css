@@ -6,7 +6,6 @@
 
 body{
     font-family: serif;
-
 }
 
 
@@ -126,4 +125,5 @@ footer{
     display:flex;
     flex:1;
     justify-content: space-evenly;
+    background-color: yellow;
 }
