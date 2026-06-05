@@ -104,9 +104,16 @@ header {
     align-items: center;
 }
 
-.footer {
-    height: 100px; 
-    background-color: rgb(173, 184, 249);
-    display: flex;
+CSS:
+
+.footer-font{
+    color:black;
+    display:flex;
     flex-direction: column;
+}
+
+footer{
+    display:flex;
+    flex:1;
+    justify-content: space-evenly;
 }
