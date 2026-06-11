@@ -62,9 +62,18 @@ nav{
 
 main{
     display: flex;
-    gap: 20px;
 }
 
+welcome to Careers{
+    display: flex;
+    flex-direction: column;
+}
+
+about it{
+    display: flex;
+    flex-direction: column;
+
+}
 .div{
     display: flex;
     flex-direction: row;
