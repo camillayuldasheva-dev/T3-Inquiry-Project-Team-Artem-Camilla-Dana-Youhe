@@ -64,26 +64,54 @@ main{
     display: flex;
 }
 
-welcome to Careers{
-    display: flex;
-    flex-direction: column;
+img{
+    width: 15vw;
 }
 
-about it{
+h1{
     display: flex;
-    flex-direction: column;
-
-}
-.div{
-    display: flex;
+    background-color: lightblue;
+    height: 30vh;
+    width: 15vw;
+    align-items: center;
     flex-direction: row;
+    justify-content: flex-end;
+}
+
+.div1{
+    display: flex;
+    background-color: lightblue;
+    padding: 15px;
+    width: 10vw;
+    height: 10vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div2{
+    display: flex;
+    background-color: lightyellow;
+    height: 10vh;
+    width: 60vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div3{
+    display: flex;
+    flex-direction: column;
     gap: 20px;
+    background-color: lightyellow;
+    height: 10vh;
+    
 }
 
 .footer-font{
     color:black;
     display:flex;
     flex-direction: column;
+    background-color:blue;
+    padding: 10px;
 }
 
 
@@ -91,4 +119,5 @@ footer{
     display:flex;
     flex:1;
     justify-content: space-evenly;
+    background-color: blue;
 }
